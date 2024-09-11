@@ -17,10 +17,10 @@ logging.info(f"Creating Project by name: {project_name}")
 # List of files
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init.py__",
-    "tests/__init.py__",
-    "tests/unit/__init.py__",
-    "tests/integration/__init.py__",
+    f"src/{project_name}/__init__.py",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",
+    "tests/integration/__init__.py",
     "init_setup.sh",
     "requirements.txt",
     "requirements_dev.txt",
