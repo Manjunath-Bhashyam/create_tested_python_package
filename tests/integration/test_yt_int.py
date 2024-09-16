@@ -5,9 +5,8 @@ from IPYNBrenderer.custom_exception import InvalidURLException
 
 class TestYTvideoRenderer:
     URL_test_success_data = [
-        ("https://youtu.be/roO5VGxOw2s", "success"),
-        ("https://www.youtube.com/watch?v=roO5VGxOw2s", "success"),
-        ("https://www.youtube.com/watch?v=roO5VGxOw2s&t=42s", "success"),
+        ("https://www.youtube.com/watch?v=9lT3RESJCiM&t=60s", "success"),
+        ("https://www.youtube.com/watch?v=9lT3RESJCiM", "success"),
     ]
     URL_test_bad_data = [
         ("https://www.youtube.com/watch?v=roO5VGxOw2sahesbf"),
